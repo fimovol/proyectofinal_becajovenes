@@ -34,16 +34,16 @@
         <section>
             <h1 class="text-center">formulario de contacto</h1>
             <section>
-              <form>
-                <section class="form-group">
+              <form class="row">
+                <section class="form-group col-md-6">
                   <label for="exampleInputEmail1">nombre</label>
                   <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ingresa tu nombre">
                 </section>
-                <section class="form-group">
+                <section class="form-group col-md-6">
                   <label for="exampleInputPassword1">ingresa tu email</label>
                   <input type="email" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
                 </section>
-                <section class="form-group">
+                <section class="form-group col-md-6">
                   <label class="" for="exampleCheck1">tema</label>
                   <select class="form-select" name="tema_de_formulario" id="tema_de_formulario">
                     <option value="">politica</option>
@@ -51,17 +51,38 @@
                     <option value="">comentario</option>
                     <option value="">felicidades</option>
                     <option value="">retroalimentacion</option>
+                    <option value="">otro</option>
                   </select>
                 </section>
-                <section class="form-group">
+                <section class="form-group col-md-6">
                   <label class="" for="exampleCheck1">numero de empleados</label>
-                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
+                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="numero" required>
                 </section>
-                <section class="form-group">
+                <section class="form-group col-md-6">
                   <label class="" for="exampleCheck1">cumpleaños</label>
-                  <input type="date" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
+                  <input type="date" class="form-control" id="" placeholder="tu email" >
                 </section>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <section class="form-group col-md-6">
+                  <label class="" for="exampleCheck1">importancia</label>
+                  <input type="range" class="form-range" id="" placeholder="tu email" >
+                </section>
+                <section class="form-group col-md-12">
+                  <section class="row justify-content-center">
+                    <section class="col-md-10">
+                      <label class="" for="exampleCheck1">mensaje</label>
+                      <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                    </section>
+                  </section>
+                  
+                </section>
+                <section class="col-md-12 mt-3">
+                  <section class="row justify-content-center">
+                    <section class="col-md-1">
+                      <button type="submit" class="btn btn-primary px-5">Submit</button>
+                    </section>
+                  </section>
+                </section>
+                
               </form>
             </section>
         </section>
