@@ -32,7 +32,38 @@
     
     <main class="container">
         <section>
-            <h1>formulario de contacto</h1>
+            <h1 class="text-center">formulario de contacto</h1>
+            <section>
+              <form>
+                <section class="form-group">
+                  <label for="exampleInputEmail1">nombre</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ingresa tu nombre">
+                </section>
+                <section class="form-group">
+                  <label for="exampleInputPassword1">ingresa tu email</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
+                </section>
+                <section class="form-group">
+                  <label class="" for="exampleCheck1">tema</label>
+                  <select class="form-select" name="tema_de_formulario" id="tema_de_formulario">
+                    <option value="">politica</option>
+                    <option value="">empresa</option>
+                    <option value="">comentario</option>
+                    <option value="">felicidades</option>
+                    <option value="">retroalimentacion</option>
+                  </select>
+                </section>
+                <section class="form-group">
+                  <label class="" for="exampleCheck1">numero de empleados</label>
+                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
+                </section>
+                <section class="form-group">
+                  <label class="" for="exampleCheck1">cumpleaños</label>
+                  <input type="date" class="form-control" id="exampleInputPassword1" placeholder="tu email" required>
+                </section>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </section>
         </section>
     </main>
     <aside></aside>
